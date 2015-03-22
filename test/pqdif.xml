@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="GBK"?>
+<PQDIF>
+<tagContainer>
+<tagVersionInfo>1,5,1,5</tagVersionInfo>
+<tagCreation>2007-06-26 00:00:12.140</tagCreation>
+<!--供电公司,变电站,母线,线路,电压等级(KV)-->
+<tagFileName> 贵阳供电局, 鸡场变电站, 铝厂母线, 鸡铝线, 220
+</tagFileName>
+<tagLanguage>English</tagLanguage>
+<tagCompressionStyleID>ID_COMP_STYLE_NONE</tagCompressionStyleID>
+<tagCompressionAlgorithmID>ID_COMP_ALG_NONE</tagCompressionAlgorithmID>
+</tagContainer>
+<tagRecDataSource>
+<tagDataSourceTypeID>ID_DS_TYPE_MEASURE</tagDataSourceTypeID>
+<tagVendorID>ID_VENDOR_PML</tagVendorID>
+<tagEquipmentID>ID_EQUIP_PML_VIP</tagEquipmentID>
+<tagEffective>2007-06-26 00:00:12.140</tagEffective>
+<tagChannelDefns>
+<!-- 000 频率通道定义 -->
+<tagOneChannelDefn cls="15" atrr="1">
+<tagChannelName>Frequency</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_HERTZ</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_FREQUENCY</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_HERTZ</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_FREQUENCY</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_HERTZ</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_FREQUENCY</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_HERTZ</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_FREQUENCY</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 001 电压负序不平衡度通道定义 -->
+<tagOneChannelDefn cls="12" attr="6">
+<tagChannelName>Negative Imbalance of Voltage</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 002 电压正序分量通道定义 -->
+<tagOneChannelDefn cls="12" attr="0">
+<tagChannelName>Positive Sequence Component of Voltage</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 003 电压负序分量通道定义 -->
+<tagOneChannelDefn cls="12" attr="1">
+<tagChannelName>Negative Sequence Component of Voltage</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 004 电压零序分量通道定义 -->
+<tagOneChannelDefn cls="12" attr="2">
+<tagChannelName>Zero Sequence Component of Voltage</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 005 电流负序不平衡度通道定义 -->
+<tagOneChannelDefn cls="12" attr="14">
+<tagChannelName>Negative Imbalance of Current</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_S2S1</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 006 电流正序分量通道定义 -->
+<tagOneChannelDefn cls="12" attr="8">
+<tagChannelName>Positive Sequence Component of Current</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SPOS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 007 电流负序分量通道定义 -->
+<tagOneChannelDefn cls="12" attr="9">
+<tagChannelName>Negative Sequence Component of Current</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SNEG</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 008 电流零序分量通道定义 -->
+<tagOneChannelDefn cls="12" attr="10">
+<tagChannelName>Zero Sequence Component of Current</tagChannelName>
+<tagPhaseID>ID_PHASE_TOTAL</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn atrr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_SZERO</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 009 A相电压偏差 -->
+<tagOneChannelDefn cls="16" attr="0">
+<tagChannelName>Deviation of VAN</tagChannelName>
+<tagPhaseID>ID_PHASE_AN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 010 B相电压偏差 -->
+<tagOneChannelDefn cls="16" attr="1">
+<tagChannelName>Deviation of VBN</tagChannelName>
+<tagPhaseID>ID_PHASE_BN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 011 C相电压偏差 -->
+<tagOneChannelDefn cls="16" attr="3">
+<tagChannelName>Deviation of VCN</tagChannelName>
+<tagPhaseID>ID_PHASE_CN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 012 AB线电压偏差 -->
+<tagOneChannelDefn cls="16" attr="4">
+<tagChannelName>Deviation of VAB</tagChannelName>
+<tagPhaseID>ID_PHASE_AB</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 013 BC线电压偏差 -->
+<tagOneChannelDefn cls="16" attr="5">
+<tagChannelName>Deviation of VBC</tagChannelName>
+<tagPhaseID>ID_PHASE_BC</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 014 CA线电压偏差 -->
+<tagOneChannelDefn cls="16" attr="6">
+<tagChannelName>Deviation of VCA</tagChannelName>
+<tagPhaseID>ID_PHASE_CA</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_RMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 015 A相电压谐波总畸变率 -->
+<tagOneChannelDefn cls="20" attr="1">
+<tagChannelName>THD of VAN</tagChannelName>
+<tagPhaseID>ID_PHASE_AN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 016 B相电压谐波总畸变率 -->
+<tagOneChannelDefn cls="23" attr="1">
+<tagChannelName>THD of VBN</tagChannelName>
+<tagPhaseID>ID_PHASE_BN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 017 C相电压谐波总畸变率 -->
+<tagOneChannelDefn cls="26" attr="1">
+<tagChannelName>THD of VCN</tagChannelName>
+<tagPhaseID>ID_PHASE_CN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 018 AB线电压谐波总畸变率 -->
+<tagOneChannelDefn cls="44" attr="1">
+<tagChannelName>THD of VAB</tagChannelName>
+<tagPhaseID>ID_PHASE_AB</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 019 BC线电压谐波总畸变率 -->
+<tagOneChannelDefn cls="47" attr="1">
+<tagChannelName>THD of VBC</tagChannelName>
+<tagPhaseID>ID_PHASE_BC</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 020 CA线电压谐波总畸变率 -->
+<tagOneChannelDefn cls="50" attr="1">
+<tagChannelName>THD of VCA</tagChannelName>
+<tagPhaseID>ID_PHASE_CA</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 021 A相电流谐波总畸变率 -->
+<tagOneChannelDefn cls="32" attr="1">
+<tagChannelName>THD of IAN</tagChannelName>
+<tagPhaseID>ID_PHASE_AN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 022 B相电流谐波总畸变率 -->
+<tagOneChannelDefn cls="35" attr="1">
+<tagChannelName>THD of IBN</tagChannelName>
+<tagPhaseID>ID_PHASE_BN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 023 C相电流谐波总畸变率 -->
+<tagOneChannelDefn cls="38" attr="1">
+<tagChannelName>THD of ICN</tagChannelName>
+<tagPhaseID>ID_PHASE_CN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_VALUELOG</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="1">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_AVG</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="2">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MAX</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="3">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_MIN</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="4">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_P95</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_PERCENT</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_TOTAL_THD</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 024 A相0-50次谐波/间谐波电压幅值和相位通道定义 -->
+<tagOneChannelDefn cls="21" attr="65535">
+<tagChannelName>Harmonic Magnitude and Phase Angle of VAN</tagChannelName>
+<tagPhaseID>ID_PHASE_AN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_PHASOR</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="7">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_VAL</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_HRMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="134">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_PHASEANGLE</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_DEGREES</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 025 B相0-50次谐波/间谐波电压幅值和相位通道定义 -->
+<tagOneChannelDefn cls="24" attr="65535">
+<tagChannelName>Harmonic Magnitude and Phase Angle of VBN</tagChannelName>
+<tagPhaseID>ID_PHASE_BN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_PHASOR</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="7">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_VAL</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_HRMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="134">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_PHASEANGLE</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_DEGREES</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 026 C相0-50次谐波/间谐波电压幅值和相位通道定义 -->
+<tagOneChannelDefn cls="27" attr="65535">
+<tagChannelName>Harmonic Magnitude and Phase Angle of VCN</tagChannelName>
+<tagPhaseID>ID_PHASE_CN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_PHASOR</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="7">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_VAL</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_HRMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="134">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_PHASEANGLE</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_DEGREES</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 027 AB线0-50次谐波/间谐波电压幅值和相位通道定义 -->
+<tagOneChannelDefn cls="45" attr="65535">
+<tagChannelName>Harmonic Magnitude and Phase Angle of VAB</tagChannelName>
+<tagPhaseID>ID_PHASE_AB</tagPhaseID>
+<tagQuantityTypeID>ID_QT_PHASOR</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="7">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_VAL</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_HRMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="134">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_PHASEANGLE</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_DEGREES</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 028 BC线0-50次谐波/间谐波电压幅值和相位通道定义 -->
+<tagOneChannelDefn cls="48" attr="65535">
+<tagChannelName>Harmonic Magnitude and Phase Angle of VBC</tagChannelName>
+<tagPhaseID>ID_PHASE_BC</tagPhaseID>
+<tagQuantityTypeID>ID_QT_PHASOR</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_VOLTAGE</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="7">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_VAL</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_VOLTS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_HRMS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn atrr="134">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_PHASEANGLE</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_DEGREES</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+<!-- 098 C相电流波形RMS 通道定义 -->
+<tagOneChannelDefn cls="101" attr="65535">
+<tagChannelName>Waveform RMS of ICN</tagChannelName>
+<tagPhaseID>ID_PHASE_CN</tagPhaseID>
+<tagQuantityTypeID>ID_QT_WAVEFORM</tagQuantityTypeID>
+<tagQuantityMeasuredID>ID_QM_CURRENT</tagQuantityMeasuredID>
+<tagSeriesDefns>
+<tagOneSeriesDefn attr="0">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_TIME</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_SECONDS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_SCALED|ID_SERIES_METHOD_INCREMENT</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+<tagOneSeriesDefn attr="6">
+<tagValueTypeID>ID_SERIES_VALUE_TYPE_VAL</tagValueTypeID>
+<tagQuantityUnitsID>ID_QU_AMPS</tagQuantityUnitsID>
+<tagQuantityCharacteristicID>ID_QC_INSTANTANEOUS</tagQuantityCharacteristicID>
+<tagStorageMethodID>ID_SERIES_METHOD_VALUES|ID_SERIES_METHOD_SCALED</tagStorageMethodID>
+<tagHintGreekPrefixID>ID_GREEK_DONTCARE</tagHintGreekPrefixID>
+</tagOneSeriesDefn>
+</tagSeriesDefns>
+</tagOneChannelDefn>
+</tagChannelDefns>
+</tagRecDataSource>
+<tagRecMonitorSettings>
+<tagEffective>2007-06-26 00:00:12.140</tagEffective>
+<tagTimeInstalled>2007-06-26 00:00:12.140</tagTimeInstalled>
+<tagUseCalibration>0</tagUseCalibration>
+<tagUseTransducer>1</tagUseTransducer>
+<!-- 系统额定频率(必须提供) -->
+<tagNominalFrequency>50.000000</tagNominalFrequency>
+<!-- 物理连接方式(必须提供) -->
+<tagSettingPhysicalConnection>ID_3ELMENT_WYE</tagSettingPhysicalConnection>
+<tagChannelSettingsArray/>
+<tagOneChannelSetting>
+<tagChannelDefnIdx>0</tagChannelDefnIdx>
+</tagOneChannelSetting>
+<tagOneChannelSetting>
+<tagChannelDefnIdx>1</tagChannelDefnIdx>
+</tagOneChannelSetting>
+<tagOneChannelSetting>
+<tagChannelDefnIdx>2</tagChannelDefnIdx>
+</tagOneChannelSetting>
+</tagRecMonitorSettings>
+<!--此观察只包含频率数据-->
+<tagRecObservation>
+<tagObservationName>Frequency Trend</tagObservationName>
+<tagTimeCreate>2007-06-25 00:00:00.000</tagTimeCreate>
+<tagTimeStart>2007-06-25 00:00:00.000</tagTimeStart>
+<tagTriggerMethodID>ID_TRIGGER_METH_PERIODIC</tagTriggerMethodID>
+<tagChannelInstances>
+	<tagOneChannelInst>
+		<tagChannelDefnIndx>0</tagChannelDefnIndx>
+		<tagSeriesInstances>
+			<tagOneSeriesInstances>
+				<tagSeriesOffset>0.09</tagSeriesOffset>
+				<tagSeriesScale>0.09</tagSeriesScale>
+				<tagSeriesBaseQuantity>1</tagSeriesBaseQuantity>
+				<tagSeriesValues>1</tagSeriesValues>
+			</tagOneSeriesInstances>
+			<tagOneSeriesInstances>
+				<tagSeriesScale>0.09</tagSeriesScale>
+				<tagSeriesBaseQuantity>1</tagSeriesBaseQuantity>
+				<tagSeriesValues>1</tagSeriesValues>
+			</tagOneSeriesInstances>
+		</tagSeriesInstances>
+	</tagOneChannelInst>
+</tagChannelInstances>
+</tagRecObservation>
+<tagRecObservation>
+<tagObservationName>Frequency Trend</tagObservationName>
+<tagTimeCreate>2007-06-25 00:00:00.000</tagTimeCreate>
+<tagTimeStart>2007-06-25 00:00:00.000</tagTimeStart>
+<tagTriggerMethodID>ID_TRIGGER_METH_PERIODIC</tagTriggerMethodID>
+<tagTimeTriggered>2007-06-25 00:00:00.000</tagTimeTriggered>
+<tagChannelTriggerIdx>1</tagChannelTriggerIdx>
+<tagChannelInstances>
+	<tagOneChannelInst>
+		<tagChannelDefnIndx>0</tagChannelDefnIndx>
+		<tagCharactFrequency>0</tagCharactFrequency>
+		<tagChannelFrequency>0</tagChannelFrequency>
+		<tagSeriesInstances>
+			<tagOneSeriesInstances>
+				<tagSeriesOffset>0.09</tagSeriesOffset>
+				<tagSeriesScale>0.09</tagSeriesScale>
+				<tagSeriesBaseQuantity>1</tagSeriesBaseQuantity>
+				<tagSeriesValues>1</tagSeriesValues>
+			</tagOneSeriesInstances>
+			<tagOneSeriesInstances>
+				<tagSeriesScale>0.09</tagSeriesScale>
+				<tagSeriesBaseQuantity>1</tagSeriesBaseQuantity>
+				<tagSeriesValues>1</tagSeriesValues>
+			</tagOneSeriesInstances>
+		</tagSeriesInstances>
+	</tagOneChannelInst>
+</tagChannelInstances>
+</tagRecObservation>
+
+
+</PQDIF>
